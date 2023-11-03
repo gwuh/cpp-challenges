@@ -8,7 +8,7 @@ target("codingproblems")
     add_packages("catch2")
 
     -- runargs should include the names of tests to execute
-    set_runargs("ExclusiveProduct")
+    set_runargs("SerializeBinaryTree")
 
     add_files(  
         "src/*.cpp"
