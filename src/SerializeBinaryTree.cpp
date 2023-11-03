@@ -180,10 +180,4 @@ TEST_CASE("SerializeBinaryTree")
         REQUIRE(deserialize<val_t>(serialize<val_t>(intTree.root()))->left->left->val == 30);
         REQUIRE(deserialize<val_t>(serialize<val_t>(intTree.root()))->right->left->right->val == 58);
     }
-    SECTION("BinaryTree<double> case")
-    {
-        // using Node = BinaryTree<double>::Node;
-        // BinaryTree<double> doubleTree;
-        // serialize(doubleTree);
-    }
 }
