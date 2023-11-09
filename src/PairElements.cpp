@@ -47,7 +47,7 @@ T cdr(const std::function<T(T(const T&, const T&))>& pair)
     });
 }
 
-TEST_CASE("PairElements", "[current]")
+TEST_CASE("PairElements")
 {
     SECTION("Sample case")
     {
