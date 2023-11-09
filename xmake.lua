@@ -7,8 +7,8 @@ target("codingproblems")
 
     add_packages("catch2")
 
-    -- runargs should include the names of tests to execute
-    set_runargs("SerializeBinaryTree")
+    -- Run only tests tagged as current (i.e. challenges currently being worked on)
+    set_runargs("[current]")
 
     add_files(  
         "src/*.cpp"
